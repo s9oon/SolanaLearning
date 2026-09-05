@@ -1,0 +1,51 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: Consolas, 'Courier New', monospace;
+  background: #1b1b1b;
+  color: #ccc;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 1.4rem;
+  font-weight: normal;
+  color: #ddd;
+  margin-bottom: 1.5rem;
+}
+
+button {
+  padding: 0.5rem 1.2rem;
+  background: #333;
+  color: #ddd;
+  border: 1px solid #555;
+  border-radius: 3px;
+  font-family: inherit;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #444;
+}
+
+.status {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: #777;
+}
+
+a {
+  color: #777;
+  font-size: 0.85rem;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+a:hover {
+  color: #aaa;
+}   
